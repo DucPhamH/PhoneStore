@@ -1,0 +1,2 @@
+rootProject.name = "App_smart_store_manager_Nhom_7"
+include ':app'
