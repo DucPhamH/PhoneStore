@@ -69,17 +69,7 @@ public class DaoHang {
         return list;
     }
 
-    public List<Hang> getAllSXTen() {
-        String sql = "SELECT * FROM Hang ORDER BY tenHang ASC";
-        List<Hang> list = getData(sql);
-        return list;
-    }
-
-    public List<Hang> getAllSXMa() {
-        String sql = "SELECT * FROM Hang ORDER BY maHang ASC";
-        List<Hang> list = getData(sql);
-        return list;
-    }
+    
 
     public List<Hang> getData(String sql, String... args) {
         List<Hang> list = new ArrayList<>();
