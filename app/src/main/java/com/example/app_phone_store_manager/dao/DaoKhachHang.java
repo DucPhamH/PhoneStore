@@ -111,17 +111,7 @@ public class DaoKhachHang {
         }
         return list;
     }
-    public List<KhachHang> getAllSXTenKH() {
-        String sql = "SELECT * FROM KhachHang ORDER BY hoTen ASC";
-        List<KhachHang> list = getData(sql);
-        return list;
-    }
-
-    public List<KhachHang> getAllSXMaKH() {
-        String sql = "SELECT * FROM KhachHang ORDER BY maKH ASC";
-        List<KhachHang> list = getData(sql);
-        return list;
-    }
+    
 
     public List<KhachHang> getData(String sql, String... args) {
         List<KhachHang> list = new ArrayList<>();

@@ -69,7 +69,6 @@ public class DaoHang {
         return list;
     }
 
-    
 
     public List<Hang> getData(String sql, String... args) {
         List<Hang> list = new ArrayList<>();
