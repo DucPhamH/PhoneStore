@@ -7,10 +7,7 @@ public class Top10SanPham {
     public Top10SanPham() {
     }
 
-    public Top10SanPham(String tenSP, int soLuong) {
-        this.tenSP = tenSP;
-        this.soLuong = soLuong;
-    }
+
 
     public String getTenSP() {
         return tenSP;
