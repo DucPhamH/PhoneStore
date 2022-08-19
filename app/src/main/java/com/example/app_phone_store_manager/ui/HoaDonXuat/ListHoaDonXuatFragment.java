@@ -101,7 +101,7 @@ public class ListHoaDonXuatFragment extends Fragment  {
 
             @Override
             public boolean onQueryTextChange(String newText) {
-               // filter(newText);
+
                 adapter.getFilter().filter(newText);
                 return false;
             }
@@ -134,15 +134,7 @@ public class ListHoaDonXuatFragment extends Fragment  {
             }
         });
     }
-   /* private void filter(String newText) {
-        List<HoaDon> filterList = new ArrayList<>();
-        for (HoaDon item : list) {
-            if (item.getMaHD().toLowerCase().contains(newText.toLowerCase())) {
-                filterList.add(item);
-            }
-        }
-        adapter.filter(filterList);
-    }*/
+
     public void dialogDelete(HoaDon hoaDon) {
         AlertDialog.Builder builder = new AlertDialog.Builder(appCompatActivity);
         builder.setTitle("Xóa");
