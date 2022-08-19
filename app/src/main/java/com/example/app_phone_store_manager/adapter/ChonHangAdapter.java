@@ -27,7 +27,6 @@ import java.util.Random;
 public class ChonHangAdapter extends RecyclerView.Adapter<ChonHangAdapter.ViewHolder> {
     private List<Hang> list;
     private ItemHangClick itemHangClick;
-    private Context context;
     private int checkedPositon = -1;
     private TextDrawable textDrawable;
 
