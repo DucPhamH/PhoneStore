@@ -111,7 +111,7 @@ public class DaoKhachHang {
         }
         return list;
     }
-    
+
 
     public List<KhachHang> getData(String sql, String... args) {
         List<KhachHang> list = new ArrayList<>();

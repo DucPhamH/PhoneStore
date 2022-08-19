@@ -133,10 +133,5 @@ public class DaoCTHD {
         return list;
     }
 
-    public List<ChiTietHoaDon> getDoanhThuCT(String startDay, String endDay) {
-        String sql = "SELECT * FROM ChiTietHoaDon WHERE ngay >= ? AND ngay <= ? ORDER BY ngay";
-        List<ChiTietHoaDon> list = getData(sql, startDay, endDay);
-        return list;
 
-    }
 }
